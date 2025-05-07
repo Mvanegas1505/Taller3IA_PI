@@ -1,6 +1,0 @@
-openai
-huggingface_hub
-python-dotenv
-numpy
-requests
-google-generativeai
