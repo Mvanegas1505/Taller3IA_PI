@@ -12,7 +12,7 @@ import io
 import urllib, base64
 
 # Cargar la API Key de OpenAI
-load_dotenv('../openAI.env')
+load_dotenv('Taller3IA_PI/DjangoProjectBase/openAI.env')
 client = OpenAI(api_key=os.environ.get('openai_apikey'))
 
 # Función para calcular similitud de coseno
